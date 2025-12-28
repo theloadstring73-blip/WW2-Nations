@@ -430,4 +430,21 @@
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","[+1] Movement <in [Foreign] tiles>"],
 		"attackSound": "torpedo" //Replace with another Imperial German unit
 	}
+
+{
+		"name": "TM 17",
+		"unitType": "Armored",
+		"uniqueTo": "German Reich",
+		"replaces": "Panzer"
+		"replaces": "Tank",
+		"movement": 6,
+		"strength": 120,
+		"cost": 400,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"promotions": ["Shock I","Blitz"], 
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
 ]
