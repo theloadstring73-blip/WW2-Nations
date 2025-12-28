@@ -447,4 +447,25 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
 	},
+
+        {
+                "name": "NV 17",
+                "unitType": "Bomber",
+                "replaces": "Bomber",
+                "uniqueTo": "United States of America",
+                "movement": 1,
+                "strength": 70,
+                "rangedStrength": 80,
+                "range": 18,
+                "cost": 390,
+                "requiredTech": "Radar",
+                "requiredResource": {
+ "Oil": 1,
+ "Iron": 2
+},
+                "promotions": ["Evasion", "Siege I"],
+                "upgradesTo": "Stealth Bomber",
+                "attackSound": "bombing"
+        },
+
 ]
